@@ -1,4 +1,4 @@
-package Day1Assigment;
+package Day1Assigment.Day1;
 
 import java.io.File;
 import java.io.IOException;

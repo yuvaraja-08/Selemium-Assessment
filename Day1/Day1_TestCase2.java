@@ -1,4 +1,4 @@
-package Day1Assigment;
+package Day1Assigment.Day1;
 
 import java.time.Duration;
 
