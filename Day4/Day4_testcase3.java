@@ -1,4 +1,4 @@
-package Day1Assigment.Day1.Day4;
+package Day1Assigment.Day4;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
