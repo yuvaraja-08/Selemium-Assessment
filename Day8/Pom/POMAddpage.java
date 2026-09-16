@@ -27,7 +27,7 @@ public class POMAddpage {
 	@FindBy(xpath="//div[@class='oxd-select-text oxd-select-text--active']")
 	private WebElement vacy;
 	
-	@FindBy(xpath="//div[@role='option']//span[normalize-space()='Sales Representative']")
+	@FindBy(xpath="//div[@role='option']//span[normalize-space()='Payroll Administrator']")
 	private WebElement salesres;
 	
 	@FindBy(xpath="(//input[@class='oxd-input oxd-input--active'])[2]")

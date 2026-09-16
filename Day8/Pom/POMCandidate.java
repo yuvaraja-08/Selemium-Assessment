@@ -23,13 +23,13 @@ public class POMCandidate {
 	@FindBy(xpath="(//div[@class='oxd-select-text oxd-select-text--active'])[1]")
 	private WebElement Jtite;
 	
-	@FindBy(xpath="//div[@role='option']//span[normalize-space()='Chief Financial Officer']")
+	@FindBy(xpath="//div[@role='option']//span[normalize-space()='Payroll Administrator']")
 	private WebElement JJ;
 	
 	@FindBy(xpath="(//div[@class='oxd-select-text oxd-select-text--active'])[2]")
 	private WebElement Vac;
 	
-	@FindBy(xpath="//div[@role='option']//span[normalize-space()='Sales Representative']")
+	@FindBy(xpath="//div[@role='option']//span[normalize-space()='Payroll Administrator']")
 	private WebElement Vacy1;
 	
 	@FindBy(xpath="(//div[@class='oxd-select-text oxd-select-text--active'])[3]")
@@ -85,6 +85,8 @@ public class POMCandidate {
 		Thread.sleep(3000);
 		Robot r = new Robot();
 		r.keyPress(KeyEvent.VK_DOWN);
+        r.keyRelease(KeyEvent.VK_DOWN);
+        r.keyPress(KeyEvent.VK_DOWN);
         r.keyRelease(KeyEvent.VK_DOWN);
 
         r.keyPress(KeyEvent.VK_ENTER);

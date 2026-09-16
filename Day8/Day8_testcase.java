@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap.KeySetView;
 
@@ -90,10 +91,12 @@ public class Day8_testcase {
 		 p4.getFrom("2026-01-09");
 		 p4.getTo("2026-18-09");
 		 
-		 if(p4.getRv().equals("No Records Found")) {
-			    System.out.println("No Records Found");
-		 } else {
-			    System.out.println("Record Found");
-			}	 
+		 
+		 try {
+			    p4.getRv();
+			    System.out.println("No Records Found😥😥😒😒");
+			} catch (NoSuchElementException e) {
+			    System.out.println("Record Found 😁😁😁");
+			}
 	}
 }
