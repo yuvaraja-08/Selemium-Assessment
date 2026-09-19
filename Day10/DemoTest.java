@@ -53,6 +53,7 @@ public class DemoTest extends Baseclass {
         }
         System.out.println("LoginTest Tested");
         Thread.sleep(3000);
+        System.out.println("--------------------------😉 Login Tested with zero failure 😉-----------------------------------");
     }
 		
 	
@@ -141,7 +142,7 @@ public class DemoTest extends Baseclass {
 	        //-----------------------------------------------------------------------------------
 
 	        Pomcomplete p5 = new Pomcomplete(driver);
-	        
+	    
 	        if (p5.getThankyou().equals("Thank you for your order!")) {
 	            System.out.println("Order compled");
 	        } else {
