@@ -91,7 +91,7 @@ public class Day12_testcase1 extends BaseClass {
 		 Object[][] obj = new Object[rc][cc];
 		 for(int row=1;row<=rc;row++) {
 			 for(int c=0;c<cc;c++) {
-				 obj[rc-1][c]=sh.getRow(row).getCell(c).getStringCellValue();
+				 obj[row-1][c]=sh.getRow(row).getCell(c).getStringCellValue();
 			 }
 		 }
 		 return obj;
