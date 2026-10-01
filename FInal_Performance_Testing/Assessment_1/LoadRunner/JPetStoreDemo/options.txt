@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Asus\Documents\VuGen\Scripts\JPetStoreDemo
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\asus\documents\vugen\scripts\jpetstoredemo\\logfile.log
+c:\users\asus\documents\vugen\scripts\jpetstoredemo\\combined_JPetStoreDemo.c
+c:\users\asus\documents\vugen\scripts\jpetstoredemo\\pre_cci.c

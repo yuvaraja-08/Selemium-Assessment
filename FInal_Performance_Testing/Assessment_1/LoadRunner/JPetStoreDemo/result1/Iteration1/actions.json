@@ -1,0 +1,126 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: jpetstore.aspectran.com",
+                "infFile": "t2.inf",
+                "time": 1790861508091
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: Dogs",
+                "infFile": "t4.inf",
+                "time": 1790861508348
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: K9-RT-01",
+                "infFile": "t6.inf",
+                "time": 1790861508650
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: EST-32",
+                "infFile": "t7.inf",
+                "time": 1790861509227
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Add to Cart",
+                "infFile": "t8.inf",
+                "time": 1790861509785
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Proceed to Checkout",
+                "infFile": "t9.inf",
+                "time": 1790861510205
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: signon",
+                "infFile": "t10.inf",
+                "time": 1790861510992
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: newOrder",
+                "infFile": "t11.inf",
+                "time": 1790861511416
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: submitOrder",
+                "infFile": "t12.inf",
+                "time": 1790861512038
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "1_LaunchUrl",
+                "rawStartTime": 1790861506053,
+                "rawEndTime": 1790861508107,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09088993072509766
+            },
+            {
+                "transactionName": "2_Category",
+                "rawStartTime": 1790861508123,
+                "rawEndTime": 1790861508360,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005391359329223633
+            },
+            {
+                "transactionName": "3_product",
+                "rawStartTime": 1790861508391,
+                "rawEndTime": 1790861508673,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004950761795043945
+            },
+            {
+                "transactionName": "4_Item",
+                "rawStartTime": 1790861508690,
+                "rawEndTime": 1790861509241,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037314891815185549
+            },
+            {
+                "transactionName": "5_AddToCart",
+                "rawStartTime": 1790861509257,
+                "rawEndTime": 1790861509791,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005046367645263672
+            },
+            {
+                "transactionName": "6_checkout",
+                "rawStartTime": 1790861509807,
+                "rawEndTime": 1790861510207,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0044820308685302738
+            },
+            {
+                "transactionName": "7_login",
+                "rawStartTime": 1790861510223,
+                "rawEndTime": 1790861511009,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004184722900390625
+            },
+            {
+                "transactionName": "8_continue",
+                "rawStartTime": 1790861511040,
+                "rawEndTime": 1790861511430,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004618167877197266
+            },
+            {
+                "transactionName": "9_order",
+                "rawStartTime": 1790861511446,
+                "rawEndTime": 1790861512054,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036132335662841799
+            }
+        ]
+    }
+]
